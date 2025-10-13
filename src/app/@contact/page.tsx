@@ -23,8 +23,7 @@ export default function ContactPage() {
         animate="show"
         transition={{ delay: 0.2 }}
       >
-        Let's connect! I'm always open to new opportunities, collaborations, or
-        just a friendly chat.
+        {"Let's connect! I'm always open to new opportunities, collaborations, or just a friendly chat."}
       </motion.p>
 
       <motion.div
