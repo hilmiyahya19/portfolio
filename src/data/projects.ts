@@ -50,7 +50,7 @@ export const projects = [
     name: "My Next App Router",
     description: "Website untuk pembelajaran Next.js dan TypeScript.",
     image: "/images/my-next-app-router.png",
-    technologies: ["React", "TypeScript", "Tailwind", "Firebase"],
+    technologies: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
     demoLink: "https://my-next-app-router-hy.vercel.app/",
     githubLink: "https://github.com/hilmiyahya19/aniinfo",
   },
