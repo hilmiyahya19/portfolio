@@ -4,7 +4,7 @@ export const techStack = [
   { id: 2, name: "CSS", image: "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
   { id: 3, name: "JavaScript", image: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg" },
   { id: 4, name: "TypeScript", image: "https://cdn.worldvectorlogo.com/logos/typescript.svg" },
-  { id: 5, name: "PHP", image: "https://cdn.worldvectorlogo.com/logos/php-1.svg" },
+  { id: 5, name: "PHP", image: "https://cdn.worldvectorlogo.com/logos/php-6.svg" },
 
   // 🔹 Frontend Framework & Styling
   { id: 6, name: "React", image: "https://cdn.worldvectorlogo.com/logos/react-2.svg" },
