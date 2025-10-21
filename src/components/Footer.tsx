@@ -7,7 +7,7 @@ export default function Footer() {
           <span className="opacity-70">•</span>{" "}
           Built with ❤️ by{" "}
           <a
-            href="https://github.com/hilmi-dev"
+            href="https://github.com/hilmiyahya19"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent2 hover:text-accent1 transition-colors duration-300 font-medium"
