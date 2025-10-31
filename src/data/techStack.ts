@@ -15,6 +15,7 @@ export const techStack = [
   // 🔹 Backend & Database
   { id: 10, name: "Node.js", image: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" },
   { id: 11, name: "Express.js", image: "https://cdn.worldvectorlogo.com/logos/express-109.svg" },
-  { id: 12, name: "MongoDB", image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" },
-  { id: 13, name: "MySQL", image: "https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg" },
+  { id: 12, name: "Laravel", image: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg" },
+  { id: 13, name: "MongoDB", image: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" },
+  { id: 14, name: "MySQL", image: "https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg" },
 ];

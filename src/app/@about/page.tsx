@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default function About() {
   // 🔹 Tanggal ditulis manual
-  const writtenDate = 'October 21, 2025'
+  const writtenDate = 'October 31, 2025'
 
   return (
     <section className="px-6 py-20 md:px-12 lg:px-20 xl:px-32 flex flex-col items-center text-center text-gray-200">
@@ -36,7 +36,7 @@ export default function About() {
           variants={fadeInUp(0.1)}
           className="text-base md:text-lg leading-relaxed text-gray-300 max-w-prose"
         >
-          I am a Computer Science graduate with an interest in full stack web development. I work with technologies such as React, Next.js, and Vue.js for the frontend, and Node.js with Express.js for the backend. I use JavaScript, TypeScript, and PHP as my programming languages, and have experience managing data with MySQL and MongoDB. I am continuously learning and exploring new technologies to strengthen my skills and develop as a full stack web developer.
+          I am a Computer Science graduate with a strong interest in full-stack web development. I have experience using React, Next.js, and Vue.js for frontend development, and Express.js and Laravel for backend development. I use JavaScript, TypeScript, and PHP as my programming languages, and have experience with MySQL and MongoDB for database management. I am continuously learning and exploring new technologies to strengthen my skills and grow as a full-stack web developer.
         </motion.p>
 
         {/* 🔹 Tanggal ditulis manual */}
