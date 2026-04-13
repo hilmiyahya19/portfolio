@@ -80,4 +80,36 @@ export const projects = [
     demoLink: "https://suryafigsgarden.vercel.app/",
     githubLink: "https://github.com/hilmiyahya19/surya-figs-garden",
   },
+  {
+    id: 9,
+    name: "Contact Management App - React",
+    description:
+      'Proyek ini merupakan hasil pembelajaran dari video "Studi Kasus React.js: Contact Management" oleh Programmer Zaman Now di YouTube.',
+    image: "/images/contact-app-frontend-pzn.png",
+    technologies: ["React"],
+    demoLink: "",
+    githubLink:
+      "https://github.com/hilmiyahya19/belajar-reactjs-contact-management",
+  },
+  {
+    id: 10,
+    name: "Contact Management App - Vue",
+    description:
+      'Proyek ini merupakan hasil pembelajaran dari video "Studi Kasus Vue.js: Contact Management" oleh Programmer Zaman Now di YouTube.',
+    image: "/images/contact-app-frontend-pzn.png",
+    technologies: ["Vue.js"],
+    demoLink: "",
+    githubLink:
+      "https://github.com/hilmiyahya19/belajar-vuejs-contact-management",
+  },
+  {
+    id: 11,
+    name: "Contact Management App - RESTful API",
+    description:
+      'Proyek ini merupakan hasil pembelajaran dari video "Tutorial NodeJS RESTful API" oleh Programmer Zaman Now di YouTube.',
+    image: "/images/contact-app-backend-expressjs-pzn.png",
+    technologies: ["Node.js", "Express.js"],
+    demoLink: "",
+    githubLink: "https://github.com/hilmiyahya19/belajar-nodejs-restful-api",
+  },
 ];
