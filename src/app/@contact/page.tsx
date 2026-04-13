@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/lib/motion";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaGitlab } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
@@ -23,7 +23,9 @@ export default function ContactPage() {
         animate="show"
         transition={{ delay: 0.2 }}
       >
-        {"Let's connect! I'm always open to new opportunities, collaborations, or just a friendly chat."}
+        {
+          "Let's connect! I'm always open to new opportunities, collaborations, or just a friendly chat."
+        }
       </motion.p>
 
       <motion.div
@@ -33,16 +35,6 @@ export default function ContactPage() {
         animate="show"
         transition={{ delay: 0.4 }}
       >
-        {/* LinkedIn */}
-        <a
-          href="https://linkedin.com/in/hyhlmyhy"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-4 rounded-full bg-white/5 hover:bg-accent1/20 transition-transform transform hover:-translate-y-1"
-        >
-          <FaLinkedin className="text-3xl text-accent1 hover:text-accent2 transition" />
-        </a>
-
         {/* GitHub */}
         <a
           href="https://github.com/hilmiyahya19"
@@ -51,6 +43,26 @@ export default function ContactPage() {
           className="p-4 rounded-full bg-white/5 hover:bg-accent1/20 transition-transform transform hover:-translate-y-1"
         >
           <FaGithub className="text-3xl text-gray-300 hover:text-accent2 transition" />
+        </a>
+
+        {/* GitLab */}
+        <a
+          href="https://gitlab.com/username-kamu"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-4 rounded-full bg-white/5 hover:bg-accent1/20 transition-transform transform hover:-translate-y-1"
+        >
+          <FaGitlab className="text-3xl text-orange-400 hover:text-accent2 transition" />
+        </a>
+
+        {/* LinkedIn */}
+        <a
+          href="https://linkedin.com/in/hyhlmyhy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-4 rounded-full bg-white/5 hover:bg-accent1/20 transition-transform transform hover:-translate-y-1"
+        >
+          <FaLinkedin className="text-3xl text-accent1 hover:text-accent2 transition" />
         </a>
 
         {/* Instagram */}
@@ -63,22 +75,6 @@ export default function ContactPage() {
           <FaInstagram className="text-3xl text-pink-400 hover:text-accent2 transition" />
         </a>
       </motion.div>
-
-      {/* <motion.p
-        className="text-sm text-gray-500 mt-10"
-        variants={fadeInUp(0)}
-        initial="hidden"
-        animate="show"
-        transition={{ delay: 0.6 }}
-      >
-        Or email me at{" "}
-        <a
-          href="mailto:hilmi.yahya@example.com"
-          className="text-accent2 hover:underline"
-        >
-          hilmi.yahya@example.com
-        </a>
-      </motion.p> */}
     </section>
   );
 }

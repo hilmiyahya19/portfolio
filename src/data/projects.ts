@@ -112,4 +112,15 @@ export const projects = [
     demoLink: "",
     githubLink: "https://github.com/hilmiyahya19/belajar-nodejs-restful-api",
   },
+  {
+    id: 12,
+    name: "Portofolio - Referensi Desain Hilmi Yahya",
+    description:
+      'Portofolio dan Referensi Desain Figma.',
+    image: "/images/figma-hilmi.png",
+    technologies: ["Figma"],
+    demoLink:
+      "https://www.figma.com/design/vJoc3GF9fiQUic3gQsL41m/Portofolio---Referensi-Desain-Hilmi-Yahya?m=auto&t=MWmvFh9pmNv6pyoA-6",
+    githubLink: "",
+  },
 ];
