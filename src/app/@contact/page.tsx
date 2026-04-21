@@ -47,7 +47,7 @@ export default function ContactPage() {
 
         {/* GitLab */}
         <a
-          href="https://gitlab.com/username-kamu"
+          href="https://gitlab.com/hilmiyahya19"
           target="_blank"
           rel="noopener noreferrer"
           className="p-4 rounded-full bg-white/5 hover:bg-accent1/20 transition-transform transform hover:-translate-y-1"
